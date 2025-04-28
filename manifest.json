@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Hide Facebook Messenger",
+  "version": "1.0",
+  "description": "ซ่อนกล่อง Messenger บน Facebook",
+  "content_scripts": [
+    {
+      "matches": ["*://www.facebook.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "permissions": []
+}
